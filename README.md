@@ -27,4 +27,7 @@
         print(x)
     
 4. Перейти в папку со скриптом, выполнив команду cd <имя папки>.
-Выполнить команду: docker build -t image_for_task4:latest . 
+
+Выполнить команду: 
+
+       docker build -t image_for_task4:latest . 
