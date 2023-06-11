@@ -13,18 +13,18 @@
       
 2. Затем прописываем скрипт 
 
-FROM alpine:latest
-FROM python:3
-ADD task4.py /
-CMD [ "python", "./task4.py" ]
+       FROM alpine:latest
+       FROM python:3
+       ADD task4.py /
+       CMD [ "python", "./task4.py" ]
 
 
 3. Скрипт на Python, создаём файл test4.py 
 
-lst = list()
-lst = ['Поздравляю!', 'Код работает исправно!', '____________________']
-for x in lst:
-    print(x)
+       lst = list()
+       lst = ['Поздравляю!', 'Код работает исправно!', '____________________']
+       for x in lst:
+        print(x)
     
 4. Перейти в папку со скриптом, выполнив команду cd <имя папки>.
 Выполнить команду: docker build -t image_for_task4:latest . 
